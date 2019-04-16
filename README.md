@@ -1,0 +1,2 @@
+# todoApp
+This is a command line todo app, created using C language. I created this program for myself because I spend a lot of time working in the command line and it comes very handy a command line program where I can keep track of my todos for the day. It is very easy to customize for your own needs, so feel free to make any changes you want for yourself in the code and I will accept changes for improving the program.
