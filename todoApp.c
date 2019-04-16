@@ -31,9 +31,9 @@ FILE* fp;
 char buff[500];
 
 //Get todos
-fp = fopen("prueba.txt", "r");
+fp = fopen("todoList.txt", "r");
 if(fp == NULL){
-	fp = fopen("prueba.txt", "w");
+	fp = fopen("todoList.txt", "w");
 } else {
 	while(!feof(fp)){
 		if(fgets(buff,500,fp) == NULL) break;
@@ -95,7 +95,7 @@ void update_todos(tList list){
 FILE* fp;
 
 //OPen file
-fp = fopen("prueba.txt","w");
+fp = fopen("todoList.txt","w");
 
 //CHeck if file is correctly created
 if(fp == NULL){
